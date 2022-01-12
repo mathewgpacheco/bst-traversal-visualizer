@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/traversal-bst-visualizer/static/css/main.9e619c4b.css",
+    "main.js": "/traversal-bst-visualizer/static/js/main.94615484.js",
+    "static/js/787.a4136493.chunk.js": "/traversal-bst-visualizer/static/js/787.a4136493.chunk.js",
+    "index.html": "/traversal-bst-visualizer/index.html",
+    "main.9e619c4b.css.map": "/traversal-bst-visualizer/static/css/main.9e619c4b.css.map",
+    "main.94615484.js.map": "/traversal-bst-visualizer/static/js/main.94615484.js.map",
+    "787.a4136493.chunk.js.map": "/traversal-bst-visualizer/static/js/787.a4136493.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e619c4b.css",
+    "static/js/main.94615484.js"
+  ]
+}
