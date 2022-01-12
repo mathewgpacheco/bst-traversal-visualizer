@@ -56,8 +56,8 @@ export default class Tree extends Component {
                 //add node to left side
                 let prevX = node.x;
                 let prevY = node.y ;
-                let newX = prevX - 100;
-                let newY = prevY + 100;
+                let newX = prevX - 150;
+                let newY = prevY + 150;
                 if(prevX === this.state.posX && prevY === this.state.posY){
                     newX = prevX - (this.state.maxWidth/4);
                 }
@@ -80,8 +80,8 @@ export default class Tree extends Component {
                 //add node to right side
                 let prevX = node.x;
                 let prevY = node.y;
-                let newX = prevX + 100;
-                let newY = prevY + 100;
+                let newX = prevX + 150;
+                let newY = prevY + 150;
                 if(prevX === this.state.posX && prevY === this.state.posY){
                     newX = prevX + this.state.maxWidth/4;
                 }

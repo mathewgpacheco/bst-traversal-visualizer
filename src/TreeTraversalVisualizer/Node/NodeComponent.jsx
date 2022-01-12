@@ -22,7 +22,7 @@ export  default class NodeComponent extends Component {
         }
         return (
             <g>
-                <circle id={id} cx={posX} cy={posY} r={25} fill={fill} stroke="black"></circle>
+                <circle id={id} cx={posX} cy={posY} r={35} fill={fill} stroke="black"></circle>
                 <text textAnchor="middle" x={posX} y={posY + 5}>{value}</text>
             </g> 
 
