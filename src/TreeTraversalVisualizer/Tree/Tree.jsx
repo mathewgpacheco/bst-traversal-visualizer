@@ -7,7 +7,9 @@ import {searchTree, traverseTreeDFS}  from "../../Algorithms/depthFirstSearch";
 import {traverseTreeBFS}  from "../../Algorithms/breadthFirstSearch";
 import './Tree.css';
 
-
+const styles ={
+    fontSize:"25px"
+}
 export default class Tree extends Component {
     constructor(props){
         super(props);
@@ -144,19 +146,19 @@ export default class Tree extends Component {
                 <ul className='header'>
                     <li className='btn-traverse-wrapper'>
                         <form>
-                            <select value={this.state.selectValue} onChange={this.handleDropdownChange}>
+                            <select style={styles} value={this.state.selectValue} onChange={this.handleDropdownChange}>
                                 <option value="none">Select Traversal</option>
                                 <option value="preOrder">Pre Order </option>
                                 <option value="inOrder">In Order </option>
                                 <option value="postOrder">Post Order </option>
-                                <option value="bfs">Breadth First </option>
+                                <option value="bfs">Breadth First Search</option>
                             </select>
-                            <button className='btn btn-primary btn-sm m-2' onClick={this.handleTraversal}>Traverse Tree</button>
+                            <button className='btn btn-primary btn-lg m-3' onClick={this.handleTraversal}>Traverse Tree</button>
                         </form>
                     </li>
                     <li className='btn-reset-wrapper'>
                             <form>
-                                <button className='btn btn-primary btn-sm m-2' onClick={this.handleReset}> Reset Tree</button>
+                                <button className='btn btn-primary btn-lg m-3' onClick={this.handleReset}> Reset Tree</button>
                             </form>
                     </li>
                     <li className='btn-add-wrapper'>
@@ -164,7 +166,7 @@ export default class Tree extends Component {
                             <label>
                                 <input type='text' onChange={this.handleChange}></input>
                             </label>
-                            <button className='btn btn-primary btn-sm m-2' onClick={this.handleAddNode} value={this.state.value}>Add Node</button>
+                            <button className='btn btn-primary btn-lg m-3' onClick={this.handleAddNode} value={this.state.value}>Add Node</button>
                                 <label>
                                     {this.state.error && <div className="error">{this.state.error}</div>}
                                 </label>
@@ -172,7 +174,7 @@ export default class Tree extends Component {
                     </li>
                 </ul>
                 <div>
-                    <h2 className='treeHeader'>
+                    <h2 className='treeHeader'style={{fontSize:"40px"}}>
                         Binary Search Tree
                     </h2>
                     <svg width={maxWidth}height={maxHeight}>
