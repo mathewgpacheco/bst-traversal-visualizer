@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/bst-traversal-visualizer/static/css/main.5f119b19.css",
-    "main.js": "/bst-traversal-visualizer/static/js/main.b67c382c.js",
+    "main.js": "/bst-traversal-visualizer/static/js/main.d20a390a.js",
     "static/js/787.a4136493.chunk.js": "/bst-traversal-visualizer/static/js/787.a4136493.chunk.js",
     "index.html": "/bst-traversal-visualizer/index.html",
     "main.5f119b19.css.map": "/bst-traversal-visualizer/static/css/main.5f119b19.css.map",
-    "main.b67c382c.js.map": "/bst-traversal-visualizer/static/js/main.b67c382c.js.map",
+    "main.d20a390a.js.map": "/bst-traversal-visualizer/static/js/main.d20a390a.js.map",
     "787.a4136493.chunk.js.map": "/bst-traversal-visualizer/static/js/787.a4136493.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f119b19.css",
-    "static/js/main.b67c382c.js"
+    "static/js/main.d20a390a.js"
   ]
 }
