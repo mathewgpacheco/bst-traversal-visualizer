@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Binary Search Tree Traversal Visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+a basic application where depth first search and breadth first search algorithms are visualized through the traversal of a binary search tree. Technologies used: React js, CSS, HTML and deployed using github pages.
 
-## Available Scripts
+live @: https://mathewgpacheco.github.io/bst-traversal-visualizer/
 
-In the project directory, you can run:
 
-### `npm start`
+### Types of Traversals
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Depth First Search
+Depth-first search (DFS) algorithm is a way of traversing through a tree/graph in which it goes along each possible longest path before backtracking. The algorithm typically starts from the root node and traverses through adjacent nodes (a path) until all nodes along the path are visited. It uses backtracking to find any other unvisited nodes and travels to them. There are different types of depth first search approaches in which they are demonstrated below.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Pre-Order
 
-### `npm test`
+Pre-order traverses the root of each subtree before traversing through the left nodes in the subtree, then the right nodes in the subtrees.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="https://media.giphy.com/media/J80NzxdCv1m9ZIsT1Z/giphy.gif" width="420" height="200"/>
 
-### `npm run build`
+### In-Order
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In-order traverses the left most nodes of each subtree before traversing through the root node in the subtree, followed by the right most nodes in the subtree.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src="https://media.giphy.com/media/GD1HIoB6MHGGZvldFf/giphy.gif" width="420" height="200"/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Post-Order
 
-### `npm run eject`
+<img src="https://media.giphy.com/media/5B1Wkl7IhBRFEKgDel/giphy.gif" width="420" height="200"/>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Post-order traverses the left most nodes of each subtree before traversing through the right most nodes in the subtree, followed by the root node.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Breadth First Search
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img src="https://media.giphy.com/media/AdMGAka8Oo6zkp3INz/giphy.gif" width="420" height="200"/>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Breadth first search starts at the root node and sequentially visits each node at a certain depth before traversing to the next height.
